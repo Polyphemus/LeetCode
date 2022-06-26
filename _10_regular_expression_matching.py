@@ -1,7 +1,5 @@
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
-        # this might be a great candidate for a recursive function.
-        # it might make sense to modify p as we go, eg ab*a become aa if there are no b's in s
         if p.isalpha():
             if p == s:
                 print('return True base')
